@@ -11,7 +11,7 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 export interface ContatoLeituraModeloItem {
   name: string;
   id: number;
-}*/
+}*/ 
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: Contato[] = [
