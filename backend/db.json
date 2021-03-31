@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Josué da Conceição",
+      "email": "josue@gmail.com",
+      "phone": "(21) 97896-9658"
+    },
+    {
+      "id": 2,
+      "name": "Maria da Silva",
+      "email": "maria@gmail.com",
+      "phone": "(21) 91256-9658"
+    },
+    {
+      "name": "Bruna",
+      "email": "bruna@gmail",
+      "phone": "21976538719",
+      "id": 3
+    }
+  ]
+}

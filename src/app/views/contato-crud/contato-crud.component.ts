@@ -1,0 +1,22 @@
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+@Component({
+  selector: 'app-contato-crud',
+  templateUrl: './contato-crud.component.html',
+  styleUrls: ['./contato-crud.component.css']
+})
+export class ContatoCrudComponent implements OnInit {
+
+  constructor(private router: Router) { }
+
+  ngOnInit(): void {
+  }
+
+  navegarParaContatoCriar(): void {
+    this.router.navigate(['/contatos/criar']);
+    
+    console.log('Navegando Conato Criar...');
+  }
+
+}
